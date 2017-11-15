@@ -14,9 +14,14 @@ h1, h3{
     display: inline-block;
 }
 
+h1{
+    font-family: Comic Sans MS;
+}
+
 h3{
     float: right;
     line-height: 2;
+    font-family: Sans-serif;
 }
 
 #header{
@@ -30,6 +35,7 @@ h3{
 
 #main1 p{
     width: 450px;
+    height: 70px;
 }
 
 #main_content{
@@ -41,6 +47,8 @@ h3{
 .paragraph{
     background-color: rgb(226, 217, 228);
     padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
 }
 
 .block, .block2{
@@ -59,6 +67,8 @@ h3{
     background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ccced1), to(#2F2727));
     color: white;
     padding: 10px;
+    font-family: Arial;
+    font-size: 10pt;
 }
 
 .block2 p{
@@ -84,6 +94,7 @@ h3{
     border-radius: 10px;
     padding: 5px;
     color: white;
+    box-shadow: 2px 2px 5px #888888;
 }
 
 .button-div{
@@ -93,11 +104,14 @@ h3{
 
 .small_p{
     padding: 7px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #footer{
     text-align: center;
     padding: 10px;
+    font-size: 10pt;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #footer img{
